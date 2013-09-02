@@ -1,0 +1,15 @@
+CACHE MANIFEST
+
+# Version 2
+
+CACHE:
+/Resume/css/style.css
+/Resume/css/print.css
+/Resume/css/common.css
+/Resume/js/libs/modernizr-2.0.6.min.js
+/Resume/js/libs/prototype.js
+/Resume/js/libs/s2.js
+/Resume/js/dynamicPage.js
+
+NETWORK:
+http://qrcode.kaywa.com/img.php

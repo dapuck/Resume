@@ -1,0 +1,113 @@
+table tbody tr td {
+	border: 1px solid black;
+}
+
+div#articles article {
+	width: 100%;
+	overflow: hidden;
+}
+
+li ul {
+	margin: 0;
+}
+
+#header-container header select {
+	width: 100%;
+}
+
+#qrcode {
+	display: none;
+}
+
+@media only screen {
+	.hide {
+		display: none;
+	}
+
+	.page-break {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 480px) {
+	#head-left {
+		float: left;
+	}
+
+	div#articles {
+		float: none;
+		width: 100%;
+	}
+
+	#header-container header select {
+		width: auto;
+	}
+	#qrcode {
+		display: inline;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	div#articles {
+		float: left;
+		width: 57%;
+	}
+
+	#header-container header select {
+		width: auto;
+	}
+}
+
+@media only screen and (min-width: 1140px) {
+	div#articles {
+		float: left;
+		width: 57%;
+	}
+
+	#header-container header select {
+		width: auto;
+	}
+}
+
+@media only print {
+
+	#head-left {
+		float: left;
+	}
+
+	aside {
+		display: none;
+	}
+
+	nav {
+		display: none;
+	}
+
+	#header-container h1 {
+		margin-bottom: 0px;
+	}
+
+	#header-container {
+		border-bottom: none;
+	}
+
+	#footer-container {
+		border-top: none;
+	}
+
+	#main {
+		padding: 0px;
+	}
+
+	a {
+		color: black;
+	}
+
+	a:visited {
+		color: black;
+	}
+
+	.about {
+		display: none;
+	}
+}
